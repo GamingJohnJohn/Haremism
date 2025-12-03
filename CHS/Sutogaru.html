@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grudogasia High School | Home</title>
+    <link rel="stylesheet" href="chs.css">
+    <link rel="stylesheet" href="darklight.css">
+	<link rel="icon" href="image/Favicon.png" type="image/png">
+<div class="banner">
+  <a style="font-family:Poppins;font-size:75pt;color:#800000;-webkit-text-stroke: 3px black;text-stroke: 5px black">Fegyelem. Becsület. Hagyomány.</a>
+</div>
+</head>
+
+<body>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<!-- Darklight toggle -->
+<img id="theme-icon" src="image/icon1L.png" width="200" height="200">
+<button id="theme-toggle">Toggle Theme</button>
+<script>
+let theme = "light"; // light or dark
+document.getElementById("theme-toggle").onclick = function () {
+    if (theme === "light") {
+        // Switch to dark
+        document.body.classList.add("dark-mode");
+        document.getElementById("theme-icon").src = "image/icon1.png";
+        theme = "dark";
+    } else {
+        // Switch to light
+        document.body.classList.remove("dark-mode");
+        document.getElementById("theme-icon").src = "image/icon1L.png";
+        theme = "light";
+    }
+};
+</script>
+<div class="topnav">
+  <a class="active" href="contact.html" style="font-family:Poppins">Contact Us</a>
+  <a href="pictures.html" style="font-family:Poppins">About us</a>
+  <a href="calender.html" style="font-family:Poppins">Events</a>
+  <a href="calender.html" style="font-family:Poppins">Learning</a>
+  <a href="calender.html" style="font-family:Poppins">Life</a>
+<div class="topnav">
+  <a href="index.html" style="font-family:Poppins">Home</a>
+<h1 style="color: white;font-family:Poppins;margin-left:15px;font-size:35pt;margin-top:03px">Grudogasia High School</h1>
+</div>
+<h1 style="color:#800000;font-family:Poppins;margin-left:15px;font-size:21pt;">Welcome to Grudogasia High School, a disciplined institution of honor and tradition.</h1>
+<div class="text-box-left" style="text-align:left;font-size:25">Welcome to the Sutogaru Battalion.
+<p>Where discipline is expected, honor is upheld, and tradition is lived.
+<p>We are a unit founded upon long-standing military tradition and honor. The battalion was first established in October 1930 by Mark, an immigrant from New Zealand.
+<p>Our division’s shoulder boards differ from all others, bearing a sharp triangular design rather than the standard circular form. The battalion color is red, denoting our status as the school’s designated special unit.
+<p>Every member is expected to step beyond their comfort zone, identify their strengths and weaknesses, and cultivate personal excellence through discipline and resolve.</div>
+<img src="image/Pic1.png" alt="Division1" style="width:1200px;margin-left:650px;margin-top: -1800px"></img>
+</body>
+</html
